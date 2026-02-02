@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lume – Schoonheid & Esthetiek</title>
+  <link rel="icon" href="images/logo.jpeg" type="image/jpeg" />
+  <link rel="apple-touch-icon" href="images/logo.jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-top">
+      <span class="header-address">Buikslotermeerplein 134, 1025 EX Amsterdam</span>
+      <a href="tel:+31612345678" class="header-phone">+31 6 1234 5678</a>
+    </div>
+    <div class="header-main">
+      <a href="/" class="logo"><img src="images/logo.jpeg" alt="Lume" class="logo-img" /></a>
+      <nav class="nav-desktop">
+        <a href="#behandelingen">Behandelingen</a>
+        <a href="#about">Over ons</a>
+        <a href="#contact">Contact</a>
+        <a href="#book" class="btn btn-header">Boek een bezoek</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Menu openen">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" aria-hidden="true">
+    <nav class="mobile-nav">
+      <a href="#behandelingen">Behandelingen</a>
+      <a href="#about">Over ons</a>
+      <a href="#contact">Contact</a>
+      <a href="#book" class="btn">Boek een bezoek</a>
+    </nav>
+  </div>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <p class="hero-tagline">Beleef je schoonheid opnieuw</p>
+      <h1 class="hero-title">Voel je op je best met geavanceerde esthetische verzorging.</h1>
+      <div class="hero-lines">
+        <span>Persoonlijke behandelingen.</span>
+        <span>Natuurlijke resultaten.</span>
+        <span>Het beste van jezelf.</span>
+      </div>
+    </section>
+
+    <!-- Intro + CTA -->
+    <section class="section section-intro">
+      <div class="container">
+        <h2 class="section-title">Hoogwaardige schoonheidsbehandelingen</h2>
+        <p class="section-lead">
+          Wij helpen je de beste versie van jezelf te zijn met op maat gemaakte behandelplannen
+          en ’s werelds beste schoonheidsproducten, ondersteund door wetenschap, voor natuurlijk
+          mooie resultaten.
+        </p>
+        <a href="#behandelingen" class="btn btn-primary">Ontdek meer</a>
+      </div>
+    </section>
+
+    <!-- Feature boxes -->
+    <section class="section section-features">
+      <div class="container container-wide">
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M30 8v44M8 30h44M20 20l20 20M40 20L20 40" stroke-linecap="round"/><circle cx="30" cy="30" r="6"/></svg>
+            </div>
+            <h3>Veiligheid & hygiëne</h3>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62 62" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M31 4l6 18h18l-14 11 5 18-15-11-15 11 5-18L7 22h18z"/></svg>
+            </div>
+            <h3>Topkwaliteit producten</h3>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="10" y="14" width="40" height="32" rx="2"/><path d="M10 22h40M18 32h24"/></svg>
+            </div>
+            <h3>Professionele apparaten</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About + image -->
+    <section class="section section-about" id="about">
+      <div class="container container-split">
+        <div class="about-content">
+          <h2>Transformeer je look met deskundige esthetische behandelingen</h2>
+          <p>
+            Onder leiding van onze specialisten biedt Lume lasertherapie, mesotherapie,
+            gezichtsbehandelingen, massage en waxen. Als een van de meest gewilde namen
+            op het gebied van niet-chirurgische verjonging komen onze klanten voor het
+            transformatieve werk dat onze kliniek levert.
+          </p>
+          <a href="#contact" class="btn btn-outline">Leer meer over ons</a>
+        </div>
+        <div class="about-images">
+          <div class="about-img about-img-main">
+            <img src="images/3ladys.png" alt="Lume behandelingen" />
+          </div>
+          <div class="about-img about-img-accent">
+            <img src="images/spa-lady.png" alt="Lume studio" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA strip -->
+    <section class="section section-cta-strip">
+      <div class="container">
+        <p class="cta-strip-text">Geïnteresseerd in onze aanbiedingen?</p>
+        <a href="#contact" class="btn btn-light">Neem contact op</a>
+      </div>
+    </section>
+
+    <!-- Onze Behandelingen -->
+    <section class="section section-behandelingen" id="behandelingen">
+      <div class="container">
+        <h2 class="section-title">✨ Onze Behandelingen</h2>
+        <div class="behandelingen-grid">
+          <article class="behandeling-card">
+            <h3 class="behandeling-title">Microneedling</h3>
+            <p class="behandeling-price">Vanaf €96</p>
+            <p class="behandeling-desc">Stimuleert de natuurlijke collageenproductie voor een stevigere en gladdere huid.</p>
+            <ul class="behandeling-list">
+              <li>Vermindert fijne lijntjes en littekens</li>
+              <li>Verbetert huidstructuur en elasticiteit</li>
+            </ul>
+            <p class="behandeling-meta"><strong>Geschikt voor:</strong> Alle huidtypen, vooral bij huidveroudering of acne-littekens</p>
+            <p class="behandeling-downtime"><strong>Downtime:</strong> 1–2 dagen lichte roodheid</p>
+          </article>
+          <article class="behandeling-card">
+            <h3 class="behandeling-title">Dieptereiniging</h3>
+            <p class="behandeling-price">Vanaf €60</p>
+            <p class="behandeling-desc">Een grondige reiniging die de poriën zuivert en de huid laat ademen.</p>
+            <ul class="behandeling-list">
+              <li>Vermindert onzuiverheden en mee-eters</li>
+              <li>Frisse en schone huid</li>
+            </ul>
+            <p class="behandeling-meta"><strong>Geschikt voor:</strong> Vette, gecombineerde en onzuivere huid</p>
+            <p class="behandeling-downtime"><strong>Downtime:</strong> Geen</p>
+          </article>
+          <article class="behandeling-card">
+            <h3 class="behandeling-title">Peeling</h3>
+            <p class="behandeling-price">Vanaf €100</p>
+            <p class="behandeling-desc">Verwijdert dode huidcellen en stimuleert celvernieuwing.</p>
+            <ul class="behandeling-list">
+              <li>Egalere teint</li>
+              <li>Vermindert pigmentvlekken en fijne lijntjes</li>
+            </ul>
+            <p class="behandeling-meta"><strong>Geschikt voor:</strong> Huid met doffe uitstraling of oneffenheden</p>
+            <p class="behandeling-downtime"><strong>Downtime:</strong> 2–5 dagen lichte schilfering mogelijk</p>
+          </article>
+          <article class="behandeling-card">
+            <h3 class="behandeling-title">Bindweefselmassage (gezicht)</h3>
+            <p class="behandeling-price">€50</p>
+            <p class="behandeling-desc">Diepwerkende massage voor een natuurlijke lifting van de huid.</p>
+            <ul class="behandeling-list">
+              <li>Verbetert doorbloeding</li>
+              <li>Verstevigt en verfrist</li>
+            </ul>
+            <p class="behandeling-meta"><strong>Geschikt voor:</strong> Iedereen die een natuurlijke glow wil</p>
+            <p class="behandeling-downtime"><strong>Downtime:</strong> Geen</p>
+          </article>
+          <article class="behandeling-card">
+            <h3 class="behandeling-title">Coagulatie</h3>
+            <p class="behandeling-price">Vanaf €40</p>
+            <p class="behandeling-desc">Effectieve behandeling voor het verwijderen van kleine huidoneffenheden.</p>
+            <ul class="behandeling-list">
+              <li>Veilig en snel resultaat</li>
+              <li>Geschikt voor steelwratjes en kleine vaatjes</li>
+            </ul>
+            <p class="behandeling-meta"><strong>Geschikt voor:</strong> Volwassenen met kleine huidoneffenheden</p>
+            <p class="behandeling-downtime"><strong>Downtime:</strong> Klein korstje 1–5 dagen</p>
+          </article>
+          <article class="behandeling-card">
+            <h3 class="behandeling-title">Huidverjonging</h3>
+            <p class="behandeling-price">Vanaf €85</p>
+            <p class="behandeling-desc">Behandeling gericht op het herstellen en verjongen van de huid.</p>
+            <ul class="behandeling-list">
+              <li>Meer stevigheid en hydratatie</li>
+              <li>Zichtbaar frissere uitstraling</li>
+            </ul>
+            <p class="behandeling-meta"><strong>Geschikt voor:</strong> Rijpere huid of eerste tekenen van veroudering</p>
+            <p class="behandeling-downtime"><strong>Downtime:</strong> Minimaal</p>
+          </article>
+          <article class="behandeling-card">
+            <h3 class="behandeling-title">Microdermabrasie</h3>
+            <p class="behandeling-price">Vanaf €57</p>
+            <p class="behandeling-desc">Zachte maar effectieve exfoliatie voor een gladde huid.</p>
+            <ul class="behandeling-list">
+              <li>Verfijnt huidstructuur</li>
+              <li>Verheldert de teint</li>
+            </ul>
+            <p class="behandeling-meta"><strong>Geschikt voor:</strong> Ruwe huid, fijne lijntjes en oppervlakkige pigmentatie</p>
+            <p class="behandeling-downtime"><strong>Downtime:</strong> Lichte roodheid mogelijk</p>
+          </article>
+          <article class="behandeling-card">
+            <h3 class="behandeling-title">Hydrafacial</h3>
+            <p class="behandeling-price">Vanaf €105</p>
+            <p class="behandeling-desc">Complete gezichtsbehandeling voor directe glow en hydratatie.</p>
+            <ul class="behandeling-list">
+              <li>Diep gereinigd en intens gehydrateerd</li>
+              <li>Direct zichtbaar resultaat</li>
+            </ul>
+            <p class="behandeling-meta"><strong>Geschikt voor:</strong> Alle huidtypen</p>
+            <p class="behandeling-downtime"><strong>Downtime:</strong> Geen</p>
+          </article>
+          <article class="behandeling-card">
+            <h3 class="behandeling-title">Pigmentatie Behandeling</h3>
+            <p class="behandeling-price">Vanaf €95</p>
+            <p class="behandeling-desc">Gerichte aanpak van pigmentvlekken en ongelijkmatige huidskleur.</p>
+            <ul class="behandeling-list">
+              <li>Egalere teint</li>
+              <li>Vermindert donkere vlekken</li>
+            </ul>
+            <p class="behandeling-meta"><strong>Geschikt voor:</strong> Huid met hyperpigmentatie</p>
+            <p class="behandeling-downtime"><strong>Downtime:</strong> Afhankelijk van behandeling, meestal mild</p>
+          </article>
+          <article class="behandeling-card">
+            <h3 class="behandeling-title">Rosacea Peeling</h3>
+            <p class="behandeling-price">Vanaf €100</p>
+            <p class="behandeling-desc">Zachte peeling speciaal ontwikkeld voor de gevoelige rosacea-huid.</p>
+            <ul class="behandeling-list">
+              <li>Kalmeert roodheid</li>
+              <li>Versterkt de huidbarrière</li>
+            </ul>
+            <p class="behandeling-meta"><strong>Geschikt voor:</strong> Gevoelige huid en rosacea</p>
+            <p class="behandeling-downtime"><strong>Downtime:</strong> Meestal geen</p>
+          </article>
+          <article class="behandeling-card">
+            <h3 class="behandeling-title">Laserontharen</h3>
+            <p class="behandeling-price">Vanaf €30</p>
+            <p class="behandeling-desc">Effectieve en veilige methode voor langdurige haarreductie met behulp van moderne lasertechnologie.</p>
+            <ul class="behandeling-list">
+              <li>Vermindert haargroei zichtbaar</li>
+              <li>Gladdere huid zonder ingegroeide haren</li>
+              <li>Geschikt voor verschillende zones van het lichaam</li>
+            </ul>
+            <p class="behandeling-meta"><strong>Geschikt voor:</strong> Vrouwen en mannen die ongewenste haargroei willen verminderen. Geschikt voor de meeste huidtypen (na intake). Professionele laserontharing in een veilige en comfortabele omgeving, afgestemd op jouw huidtype.</p>
+            <p class="behandeling-downtime"><strong>Downtime:</strong> Geen. Lichte roodheid kan voorkomen en verdwijnt meestal binnen enkele uren.</p>
+          </article>
+          <article class="behandeling-card">
+            <h3 class="behandeling-title">Acne behandeling</h3>
+            <p class="behandeling-price">Op aanvraag</p>
+            <p class="behandeling-desc">De behandeling kan bestaan uit het reinigen van acne of een peeling, afhankelijk van de huidconditie. Dit wordt altijd besproken met de klant voor een persoonlijk behandelplan.</p>
+            <p class="behandeling-meta"><strong>Geschikt voor:</strong> Mensen met acne of onzuivere huid.</p>
+            <p class="behandeling-downtime"><strong>Downtime:</strong> Afhankelijk van behandeling.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission -->
+    <section class="section section-mission">
+      <div class="container container-split">
+        <div class="mission-content">
+          <span class="section-label">Onze missie</span>
+          <h2>Ons doel is de hoogste kwaliteit service te bieden.</h2>
+          <p>
+            Bij Lume geloven we dat elke klant trots mag zijn op zijn of haar
+            uiterlijk. Onze behandelplannen worden voortdurend bijgewerkt volgens
+            de nieuwste cosmetische trends. Bel of sms om contact op te nemen met
+            onze studio.
+          </p>
+        </div>
+        <div class="mission-accent">
+          <img src="images/spa.png" alt="Lume studio interieur" class="mission-img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Instagram -->
+    <section class="section section-gallery">
+      <div class="container">
+        <h2 class="section-title">Instagram @lume.studio</h2>
+        <p class="gallery-intro">Echte posts uit onze feed. Klik op een post om deze op Instagram te openen.</p>
+        <div class="gallery-grid gallery-embeds">
+          <div class="gallery-item"><iframe src="https://www.instagram.com/p/DS0jxfIjbW_/embed" width="320" height="400" frameborder="0" scrolling="no" allowtransparency="true" loading="lazy" title="Instagram post"></iframe></div>
+          <div class="gallery-item"><iframe src="https://www.instagram.com/p/DNjCRuvNC2n/embed" width="320" height="400" frameborder="0" scrolling="no" allowtransparency="true" loading="lazy" title="Instagram post"></iframe></div>
+          <div class="gallery-item"><iframe src="https://www.instagram.com/p/DUIRdkkDf68/embed" width="320" height="400" frameborder="0" scrolling="no" allowtransparency="true" loading="lazy" title="Instagram post"></iframe></div>
+          <div class="gallery-item"><iframe src="https://www.instagram.com/p/DUIQ0kADXmk/embed" width="320" height="400" frameborder="0" scrolling="no" allowtransparency="true" loading="lazy" title="Instagram post"></iframe></div>
+          <div class="gallery-item"><iframe src="https://www.instagram.com/p/DSQQ1Q8jbvA/embed" width="320" height="400" frameborder="0" scrolling="no" allowtransparency="true" loading="lazy" title="Instagram post"></iframe></div>
+          <div class="gallery-item"><iframe src="https://www.instagram.com/p/DR9tFOHCKtN/embed" width="320" height="400" frameborder="0" scrolling="no" allowtransparency="true" loading="lazy" title="Instagram post"></iframe></div>
+          <div class="gallery-item"><iframe src="https://www.instagram.com/p/DQYvlL4DW8g/embed" width="320" height="400" frameborder="0" scrolling="no" allowtransparency="true" loading="lazy" title="Instagram post"></iframe></div>
+          <div class="gallery-item"><iframe src="https://www.instagram.com/p/DRkRgfWCLMQ/embed" width="320" height="400" frameborder="0" scrolling="no" allowtransparency="true" loading="lazy" title="Instagram post"></iframe></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo"><img src="images/logo.jpeg" alt="Lume" class="logo-img logo-img-footer" /></a>
+        </div>
+        <div class="footer-block">
+          <h3>Adres</h3>
+          <p>Buikslotermeerplein 134, 1025 EX Amsterdam</p>
+          <p class="footer-hours">
+            Za 10:00 – 18:00 · Zo 10:00 – 18:00<br />
+            Ma – Do 10:00 – 18:00 · Vr 12:00 – 20:00<br />
+            Dinsdag gesloten
+          </p>
+        </div>
+        <div class="footer-block">
+          <h3>Zeg hallo</h3>
+          <p><a href="tel:+31612345678">+31 6 1234 5678</a></p>
+          <p><a href="mailto:hello@lume.studio">hello@lume.studio</a></p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">Facebook</a>
+            <a href="#" aria-label="Instagram">Instagram</a>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <a href="#behandelingen">Behandelingen</a>
+          <a href="#about">Over ons</a>
+          <a href="#">Privacy</a>
+          <a href="#">Colofon</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Lume. Alle rechten voorbehouden.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('.menu-toggle');
+      var menu = document.querySelector('.mobile-menu');
+      if (!toggle || !menu) return;
+      toggle.addEventListener('click', function () {
+        var open = menu.getAttribute('aria-hidden') === 'false';
+        menu.setAttribute('aria-hidden', open ? 'true' : 'false');
+        toggle.setAttribute('aria-label', open ? 'Menu openen' : 'Menu sluiten');
+        document.body.classList.toggle('menu-open', !open);
+      });
+    })();
+  </script>
+</body>
+</html>
