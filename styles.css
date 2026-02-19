@@ -814,6 +814,12 @@ body.menu-open .menu-toggle span:nth-child(3) {
   color: var(--color-text);
 }
 
+.addon-price {
+  font-weight: 600;
+  color: var(--color-accent);
+  font-size: 1rem;
+}
+
 .addon-cta {
   margin-top: var(--space-sm);
   font-weight: 500;
