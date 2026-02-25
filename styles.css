@@ -756,24 +756,36 @@ body.menu-open .menu-toggle span:nth-child(3) {
 }
 
 .prijslijst-groep-title {
-  font-family: var(--font-heading);
+  font-family: var(--font-body);
   font-size: 1.1rem;
   font-weight: 600;
   color: var(--color-text);
   margin: 0 0 var(--space-sm);
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+}
+
+.prijslijst-groep-title .prijslijst-num {
+  display: inline-block;
+  min-width: 2.25rem;
+  flex-shrink: 0;
 }
 
 .prijslijst {
   list-style: none;
   padding: 0;
   margin: 0;
+  font-family: var(--font-body);
   font-size: 0.95rem;
   color: var(--color-text);
   line-height: 1.6;
 }
 
 .prijslijst li {
-  padding: 0.25rem 0;
+  margin: 0;
+  padding: 0.35rem 0;
+  padding-left: 0;
   border-bottom: 1px solid var(--color-border);
 }
 
